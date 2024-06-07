@@ -14,7 +14,7 @@ import org.springframework.context.annotation.ComponentScan;
     예를 들어 다른 패키지(kr.ac.hansung.ecse)에 있는 Product라는 컴포넌트는
     @Component를 사용해도 빈으로 등록되지 않음
  */
-@ComponentScan(basePackages = {"kr.ac.hansung.cse", "kr.ac.hansung.ecse"})
+//@ComponentScan(basePackages = {"kr.ac.hansung.cse", "kr.ac.hansung.ecse"})
 public class HelloSpringBootApplication {
 
     public static void main(String[] args) {
